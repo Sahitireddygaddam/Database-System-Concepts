@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T18:17:19.743Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="7-yw8Uk_ILXxCx997R7w" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-14T18:22:01.074Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="PVAReeD49ZHdjnx67C1T" version="20.5.3" type="github" pages="2">
   <diagram id="YFm5VlQEmCML4P8pInCl" name="Page-1">
     <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -164,6 +164,42 @@
         </mxCell>
         <mxCell id="LKZUrMc6pcdT5NVgkcVd-23" value="&lt;span style=&quot;text-align: start; font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;&lt;b&gt;has_allocated&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="700" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LKZUrMc6pcdT5NVgkcVd-24" value="&lt;span style=&quot;text-align: start; font-size: 11pt; line-height: 15.6933px; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;&lt;b&gt;Seat_assignments&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="860" width="140" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LKZUrMc6pcdT5NVgkcVd-25" value="&lt;u style=&quot;font-size: medium;&quot;&gt;&lt;span style=&quot;font-size: 11pt; line-height: 15.6933px; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;seat_id&lt;/span&gt;&lt;/u&gt;&lt;span style=&quot;font-size: 11pt; line-height: 15.6933px; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LKZUrMc6pcdT5NVgkcVd-24">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LKZUrMc6pcdT5NVgkcVd-28" value="&lt;span style=&quot;font-size: 11pt; line-height: 15.6933px; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;class&lt;/span&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LKZUrMc6pcdT5NVgkcVd-24">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LKZUrMc6pcdT5NVgkcVd-29" value="&lt;span style=&quot;text-align: start; font-size: 11pt; line-height: 15.6933px; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;&lt;span&gt;Route&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="572" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="LKZUrMc6pcdT5NVgkcVd-30" value="&lt;u style=&quot;font-size: medium;&quot;&gt;&lt;span style=&quot;font-size: 11pt; line-height: 15.6933px; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;route_id&lt;/span&gt;&lt;/u&gt;&lt;span style=&quot;font-size: 11pt; line-height: 15.6933px; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LKZUrMc6pcdT5NVgkcVd-29">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LKZUrMc6pcdT5NVgkcVd-31" value="&lt;span style=&quot;font-size: 11pt; line-height: 15.6933px; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;airport&lt;/span&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LKZUrMc6pcdT5NVgkcVd-29">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LKZUrMc6pcdT5NVgkcVd-32" value="&lt;span style=&quot;font-size: 11pt; line-height: 15.6933px; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;next_destination&lt;/span&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LKZUrMc6pcdT5NVgkcVd-29">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LKZUrMc6pcdT5NVgkcVd-33" value="&lt;span style=&quot;text-align: start; font-size: 11pt; line-height: 15.6933px; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;Schedule&lt;/span&gt;&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="430" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="LKZUrMc6pcdT5NVgkcVd-34" value="&lt;u style=&quot;font-size: medium;&quot;&gt;&lt;span style=&quot;font-size: 11pt; line-height: 15.6933px; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;schedule_id&lt;/span&gt;&lt;/u&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LKZUrMc6pcdT5NVgkcVd-33">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LKZUrMc6pcdT5NVgkcVd-35" value="&lt;span style=&quot;font-size: 11pt; line-height: 15.6933px; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;source_aiport&lt;/span&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LKZUrMc6pcdT5NVgkcVd-33">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LKZUrMc6pcdT5NVgkcVd-36" value="&lt;span style=&quot;font-size: 11pt; line-height: 15.6933px; font-family: Calibri, sans-serif;&quot; lang=&quot;EN-US&quot;&gt;destination_airport&lt;/span&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LKZUrMc6pcdT5NVgkcVd-33">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LKZUrMc6pcdT5NVgkcVd-37" value="&lt;span style=&quot;font-family: Calibri, sans-serif; font-size: 14.6667px;&quot;&gt;date&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LKZUrMc6pcdT5NVgkcVd-33">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
